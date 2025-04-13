@@ -1,0 +1,56 @@
+body {
+  background-color: #191f2b;
+}
+
+.custom-gradient {
+  background: linear-gradient(to right, #ff0080, #7928ca, #0070f3);
+  background-clip: text;
+  background-size: 200% 200%; /*size width 200% and height 200% */
+  -webkit-text-fill-color: transparent;
+  animation: text-gradient 3s infinite linear;
+}
+
+@keyframes text-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-border {
+  position: relative;
+  display: inline-block;
+  padding: 4px; /* Border thickness */
+  border-radius: 30px; /* Rounded border */
+  background: linear-gradient(90deg, #ff0080, #7928ca, #0070f3);
+  background-size: 200% 200%;
+  animation: gradient-border 3s infinite linear;
+}
+
+.animated-border span  {
+  display: block;
+  background: #0f172a; /* Match your site’s background */
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+  text-align: center;
+}
+
+
+@keyframes gradient-border {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
