@@ -27,7 +27,7 @@ const Header = () => {
             </button>
             {/* Navigation */}
             <div
-              className={`fixed right-0 top-19 z-20 bg-gray-800 text-gray-300 h-full w-1/2 transition-transform transform duration-300 ${
+              className={`fixed right-0 top-16 z-20 bg-gray-800 text-gray-300 h-full w-1/2 transition-transform transform duration-300 ${
                 nav ? "translate-x-0" : "translate-x-full"
               }`}
             >
@@ -36,7 +36,7 @@ const Header = () => {
                   to="portfolio"
                   smooth={true}
                   duration={1000}
-                  className="cursor-pointer"
+                  className="cursor-pointer hover:underline "
                 >
                   Portfolio
                 </ScrollLink>

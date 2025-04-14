@@ -6,7 +6,7 @@ const SkillsDetails = ({ title, description }) => {
   const { toggle, handleToggle } = useToggle(); // Use toggle hook
 
   return (
-    <div className="mb-4 w-[300px] mx-auto">
+    <div className="w-[300px] mx-auto p-2 sm:p-0">
       <div className="flex justify-between items-center bg-gray-800 p-3 rounded-lg hover:bg-gray-700 transition">
         <h1 className="text-white text-lg">{title}</h1>
         <button onClick={handleToggle}>

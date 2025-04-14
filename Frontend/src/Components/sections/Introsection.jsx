@@ -6,7 +6,7 @@ const Introsection = () => {
   return (
     <>
       <div className="container mx-auto pt-20">
-        <section className="flex items-center justify-between">
+        <section className="flex items-center justify-between p-5 sm:p-0">
           {/* left col */}
           <div className="space-y-5 max-w-[500px] md:max-w-[900px]">
             <h1 className="custom-gradient text-4xl sm:text-6xl md:text-5xl lg:text-8xl  uppercase font-serif">

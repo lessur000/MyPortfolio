@@ -8,7 +8,7 @@ const Skills = () => {
       <div id="skills" className="container mx-auto mt-30">
         <div className="flex justify-around flex-col lg:flex-row ">
           <SkillsSection />
-          <div>
+          <div className="mt-20 lg:mt-0">
             {skillsData.map((skills) => (
               <SkillsDetails
                 key={skills.id}
