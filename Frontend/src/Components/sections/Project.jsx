@@ -8,7 +8,7 @@ import Pic3 from "/AutomotiveShop.png";
 const Project = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-20 gap-3 m-2">
-        {/* Ecommerce */}
+      {/* Ecommerce */}
       <div className="border border-[#00BFFF] p-2 rounded-xl space-y-5 overflow-hidden ">
         <div className="space-y-5 m-3">
           <h5 className="text-[#A020F0] uppercase text-xl">00 - Ecommerce</h5>
@@ -44,10 +44,10 @@ const Project = () => {
           </p>
         </div>
       </div>
-        {/* MetaVerse */}
-        <div className="border border-[#00BFFF] p-2 rounded-xl space-y-5 overflow-hidden ">
+      {/* MetaVerse */}
+      <div className="border border-[#00BFFF] p-2 rounded-xl space-y-5 overflow-hidden ">
         <div className="space-y-5 m-3">
-          <h5 className="text-[#A020F0] uppercase text-xl">00 - Ecommerce</h5>
+          <h5 className="text-[#A020F0] uppercase text-xl">01 - MetaVerse</h5>
           <div className="flex flex-wrap gap-2">
             <div
               className="border bg-[#001F33] h-fit p-2 text-xs md:text-lg uppercase text-[#00BFFF]  hover:bg-[#3a005c] hover:text-white hover:border-white 
@@ -60,12 +60,6 @@ const Project = () => {
              transition duration-300"
             >
               ReactJSX+Vite
-            </div>
-            <div
-              className="border bg-[#001F33] h-fit p-2 text-xs md:text-lg uppercase text-[#00BFFF]  hover:bg-[#3a005c] hover:text-white hover:border-white 
-             transition duration-300"
-            >
-              NodeJS
             </div>
           </div>
           <ThirdButton />
@@ -80,10 +74,12 @@ const Project = () => {
           </p>
         </div>
       </div>
-        {/* AutomotiveShop */}
-        <div className="border border-[#00BFFF] p-2 rounded-xl space-y-5 overflow-hidden ">
+      {/* AutomotiveShop */}
+      <div className="border border-[#00BFFF] p-2 rounded-xl space-y-5 overflow-hidden ">
         <div className="space-y-5 m-3">
-          <h5 className="text-[#A020F0] uppercase text-xl">00 - Ecommerce</h5>
+          <h5 className="text-[#A020F0] uppercase text-xl">
+            02 - AutomotiveShop
+          </h5>
           <div className="flex flex-wrap gap-2">
             <div
               className="border bg-[#001F33] h-fit p-2 text-xs md:text-lg uppercase text-[#00BFFF]  hover:bg-[#3a005c] hover:text-white hover:border-white 
@@ -96,12 +92,6 @@ const Project = () => {
              transition duration-300"
             >
               ReactJSX+Vite
-            </div>
-            <div
-              className="border bg-[#001F33] h-fit p-2 text-xs md:text-lg uppercase text-[#00BFFF]  hover:bg-[#3a005c] hover:text-white hover:border-white 
-             transition duration-300"
-            >
-              NodeJS
             </div>
           </div>
           <FourthButton />
