@@ -4,7 +4,7 @@ import FourthButton from "../ui/FourthButton";
 import Pic1 from "/Ecommerce.png";
 import Pic2 from "/MetaVerse.png";
 import Pic3 from "/AutomotiveShop.png";
-import Pic4 from "/RusselFlix.png";
+import Pic4 from "/SelFlix.png";
 import FiveButton from "../ui/FiveButton";
 
 const Project = () => {
