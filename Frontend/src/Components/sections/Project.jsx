@@ -3,7 +3,7 @@ import ThirdButton from "../ui/ThirdButton";
 import FourthButton from "../ui/FourthButton";
 import Pic1 from "/Ecommerce.png";
 import Pic2 from "/MetaVerse.png";
-import Pic3 from "/AutomotiveShop.png";
+import Pic3 from "/Automotive.png";
 import Pic4 from "/SelFlix.png";
 import FiveButton from "../ui/FiveButton";
 
@@ -80,7 +80,7 @@ const Project = () => {
       <div className="border border-[#00BFFF] p-2 rounded-xl space-y-5 overflow-hidden ">
         <div className="space-y-5 m-3">
           <h5 className="text-[#A020F0] uppercase text-xl">
-            02 - AutomotiveShop
+            02 - Automotive
           </h5>
           <div className="flex flex-wrap gap-2">
             <div
